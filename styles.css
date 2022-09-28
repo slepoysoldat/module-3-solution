@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    --bs-bg-opacity: 1;
+    background-color: lightgray!important;
+}
+
+.main-heading{
+    text-align: center;
+    text-transform: uppercase;
+    
+    margin-bottom: 5%;
+}
+
+.main-block{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    justify-content: space-around;
+}
+
+.main-container{
+    background-color: lightgray;
+    margin-top: 30px!important;
+}
+
+@media (max-width: 575px){
+    .main-block{
+        padding: 0 30px 0 30px;
+    }
+}
